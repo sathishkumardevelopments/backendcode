@@ -19,7 +19,7 @@ const UserOrderController = async (req, res) => {
       userNew = await Users.create({
         contact: req?.body?.orders?.customernumber,
         name: req?.body?.orders?.customername,
-        role: "customer",
+        role: "user",
       });
     }
     
