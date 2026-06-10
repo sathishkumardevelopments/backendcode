@@ -12,7 +12,7 @@ const customerschema = new mongoose.Schema({
   },
   role: {
     type: Boolean,
-    default: "customer",
+    default: "user",
   },
 }, { timestamps: true });
 
